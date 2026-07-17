@@ -35,7 +35,7 @@ in
               description = "Minimum duration of the PlymouthVista animation in seconds.";
             };
           };
-          description = "plymouth settings"
+          description = "plymouth settings";
         };
         sddm.enable = lib.mkEnableOption "the SDDM theme";
       };
